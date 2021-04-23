@@ -19,7 +19,7 @@ Para este proyecto se utilizaron 3:
 
 - [CoreStore](http://https://github.com/c6357/CoreStore "CoreStore") -> 5.3.1
 - [Lottie](http://https://github.com/airbnb/lottie-ios "Lottie")
-- [MLChallengeAPI](https://github.com/miguelPalaciosAPPDeveloper/MLChallegueAPIhttp:// "MLChallengeAPI") -> 1.1.4
+- [MLChallengeAPI](https://github.com/miguelPalaciosAPPDeveloper/MLChallegueAPI) -> 1.1.4
 
 ## CoreStore
 CoreStore es un framework para el manejo de base de datos en iOS usando CoreData, se utilizo en este proyecto por la facilidad de gestionar las bases de datos y por la experiencia en su uso.
