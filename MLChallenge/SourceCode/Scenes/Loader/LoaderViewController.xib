@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="17156" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_0" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17125"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="LoaderViewController" customModule="MLChallenge" customModuleProvider="target">
+            <connections>
+                <outlet property="centerConstraint" destination="5Rh-gH-s2b" id="Ie0-3R-EqC"/>
+                <outlet property="loaderContainerView" destination="tig-lI-9eX" id="85R-Ud-gsu"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view alpha="0.40000000000000002" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="pTW-6z-G4H">
+                    <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                    <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                </view>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="tig-lI-9eX">
+                    <rect key="frame" x="110" y="234" width="100" height="100"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                            <integer key="value" value="12"/>
+                        </userDefinedRuntimeAttribute>
+                    </userDefinedRuntimeAttributes>
+                </view>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstItem="tig-lI-9eX" firstAttribute="centerY" secondItem="i5M-Pr-FkT" secondAttribute="centerY" id="5Rh-gH-s2b"/>
+                <constraint firstItem="tig-lI-9eX" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="7Rs-C9-zOp"/>
+                <constraint firstItem="pTW-6z-G4H" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="8bo-vF-WtC"/>
+                <constraint firstItem="pTW-6z-G4H" firstAttribute="bottom" secondItem="i5M-Pr-FkT" secondAttribute="bottom" id="Az4-vB-Px4"/>
+                <constraint firstItem="tig-lI-9eX" firstAttribute="height" secondItem="i5M-Pr-FkT" secondAttribute="height" multiplier="0.176056" id="Zmq-G7-Lo1"/>
+                <constraint firstItem="tig-lI-9eX" firstAttribute="width" secondItem="i5M-Pr-FkT" secondAttribute="height" multiplier="25:142" id="kW6-oF-nSf"/>
+                <constraint firstItem="pTW-6z-G4H" firstAttribute="trailing" secondItem="fnl-2z-Ty3" secondAttribute="trailing" id="p5W-Ed-IpE"/>
+                <constraint firstItem="pTW-6z-G4H" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="u7i-Oe-5Ob"/>
+            </constraints>
+            <point key="canvasLocation" x="138.75" y="140.49295774647888"/>
+        </view>
+    </objects>
+</document>

@@ -1,0 +1,46 @@
+/* 
+  MLLocalizables.strings
+  MLChallenge
+
+  Created by Miguel Angel De Leon Palacios on 17/04/21.
+  
+*/
+
+// MARK: - BUTTONS.
+"ml_button_title_next" = "Siguiente";
+"ml_button_title_start" = "Comenzar";
+"ml_button_title_accept" = "Acceptar";
+"ml_button_title_cancel" = "Cancelar";
+
+// MARK: - MESSAGES.
+"error_general_message" = "Lo sentimos no pudimos obtener la información";
+"error_internet_message" = "Sin conexión a internet";
+
+// MARK: - ONBOARDING.
+"onboarding_cell_title_1" = "MLChallenge";
+"onboarding_cell_description_1" = "Esta es la app del reto de mercado libre, creada por Miguel Palacios, dentro puedes llamarlo o enviarle un correo.";
+"onboarding_cell_title_2" = "Aplicación";
+"onboarding_cell_description_2" = "La aplicación usa MVVM y consume 3 frameworks que son: \n\n- CoreStore \n- Lottie \n- MLChallengeAPI (created for this challenge)";
+"onboarding_cell_title_3" = "Búsqueda";
+"onboarding_cell_description_3" = "La funcionalidad más importante de la app es la busqueda de artuculos los cuales se pueden obtener por categoria, subcategoria o por la barra de busqueda.";
+"onboarding_cell_description_4" = "Una app pequeña que cuenta con solo 4 modulos principales. Entra y observa lo que se ha creado en este challenge!";
+
+// MARK: - SITESELECTOR.
+"site_selector_title" = "Selecciona un país";
+"site_selector_description" = "Si quieres ver productos disponibles de otros paises puedes cambiar de región en cualquier momento";
+
+// MARK: - HOME.
+"home_place_holder_search" = "Buscar en MLChallenge";
+
+// MARK: - PRODUCTS.
+"products_free_shipping" = "Envío gratis";
+"products_off" = "% de descuento";
+"products_not_found" = "No pudimos encontrar lo que buscabas, trata con otras palabras";
+"product_new_title" = "Producto nuevo";
+"product_available_stock" = "Stock disponible";
+"product_not_available_stock" = "Stock no disponible";
+"product_available" = "disponibles";
+"products_sold" = "vendidos";
+"product_shipped_from" = "Producto enviado desde";
+"product_regular_price" = "Normalmente";
+"product_see_in_mercado_libre" = "Ver en mercado libre";

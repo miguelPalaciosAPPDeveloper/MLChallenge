@@ -1,0 +1,46 @@
+/* 
+  MLLocalizables.strings
+  MLChallenge
+
+  Created by Miguel Angel De Leon Palacios on 17/04/21.
+  
+*/
+
+// MARK: - BUTTONS.
+"ml_button_title_next" = "Next";
+"ml_button_title_start" = "Start";
+"ml_button_title_accept" = "Accept";
+"ml_button_title_cancel" = "Cancel";
+
+// MARK: - MESSAGES.
+"error_general_message" = "Sorry we couldn't get the information";
+"error_internet_message" = "No internet connection";
+
+// MARK: - ONBOARDING.
+"onboarding_cell_title_1" = "MLChallenge";
+"onboarding_cell_description_1" = "This is the app for mercado libre challenge, created by Miguel Palacios, inside the app you can call him or send him an email.";
+"onboarding_cell_title_2" = "Application";
+"onboarding_cell_description_2" = "The application uses MVVM and consumes 3 frameworks which are: \n\n- CoreStore \n- Lottie \n- MLChallengeAPI (created for this challenge)";
+"onboarding_cell_title_3" = "Search";
+"onboarding_cell_description_3" = "The most important functionality of the app is the search for articles which can be obtained by category, subcategory or by the search bar.";
+"onboarding_cell_description_4" = "A small app that has only 4 main modules. Enter and see what has been created in this challenge!";
+
+// MARK: - SITESELECTOR.
+"site_selector_title" = "Select a country";
+"site_selector_description" = "If you want to see products available from other countries you can change region at any time";
+
+// MARK: - HOME.
+"home_place_holder_search" = "Search in MLChallenge";
+
+// MARK: - PRODUCTS.
+"products_free_shipping" = "Free shipping";
+"products_off" = "% OFF";
+"products_not_found" = "We couldn't find what you were looking for, try with other words.";
+"product_new_title" = "Product new";
+"product_available_stock" = "Available stock";
+"product_not_available_stock" = "stock not available";
+"product_available" = "available";
+"products_sold" = "sold";
+"product_shipped_from" = "product shipped from";
+"product_regular_price" = "Normally";
+"product_see_in_mercado_libre" = "See in mercado libre";

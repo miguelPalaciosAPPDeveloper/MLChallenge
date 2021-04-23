@@ -1,0 +1,6 @@
+## Custom framework depedencies
+github "https://github.com/miguelPalaciosAPPDeveloper/MLChallegueAPI" == 1.1.4
+
+# Application External Dependencies
+github "JohnEstropia/CoreStore" == 5.3.1
+github "airbnb/lottie-ios" "master"

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="17156" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_0" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17125"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="SplashViewController" customModule="MLChallenge" customModuleProvider="target">
+            <connections>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="njD-Zd-XsW" customClass="UIMLBackgroundView" customModule="MLChallenge" customModuleProvider="target">
+                    <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                </view>
+                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="SplashImage" translatesAutoresizingMaskIntoConstraints="NO" id="OsK-Uv-JSk">
+                    <rect key="frame" x="28" y="240" width="264" height="88"/>
+                </imageView>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
+            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+            <constraints>
+                <constraint firstItem="OsK-Uv-JSk" firstAttribute="width" secondItem="i5M-Pr-FkT" secondAttribute="width" multiplier="0.825" id="520-tH-GB3"/>
+                <constraint firstItem="njD-Zd-XsW" firstAttribute="trailing" secondItem="i5M-Pr-FkT" secondAttribute="trailing" id="AUL-Ie-09L"/>
+                <constraint firstItem="njD-Zd-XsW" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="Bqd-c3-EgC"/>
+                <constraint firstItem="njD-Zd-XsW" firstAttribute="bottom" secondItem="i5M-Pr-FkT" secondAttribute="bottom" id="EQz-7p-lLP"/>
+                <constraint firstItem="OsK-Uv-JSk" firstAttribute="centerX" secondItem="fnl-2z-Ty3" secondAttribute="centerX" id="L0J-Wi-bD3"/>
+                <constraint firstItem="njD-Zd-XsW" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="PWC-SD-vT9"/>
+                <constraint firstItem="OsK-Uv-JSk" firstAttribute="height" secondItem="i5M-Pr-FkT" secondAttribute="height" multiplier="0.15493" id="SDO-CI-omG"/>
+                <constraint firstItem="OsK-Uv-JSk" firstAttribute="centerY" secondItem="fnl-2z-Ty3" secondAttribute="centerY" id="yjs-xH-cTE"/>
+            </constraints>
+            <point key="canvasLocation" x="140.625" y="138.38028169014083"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="SplashImage" width="264" height="88"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

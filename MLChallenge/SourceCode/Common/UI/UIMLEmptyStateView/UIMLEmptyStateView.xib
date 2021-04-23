@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="17156" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_0" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17125"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="UIMLEmptyStateView" customModule="MLChallenge" customModuleProvider="target">
+            <connections>
+                <outlet property="contentButton" destination="xdF-Iu-Otf" id="aDr-kh-4bx"/>
+                <outlet property="errorImageView" destination="V03-NP-QVx" id="2Sg-lZ-G2v"/>
+                <outlet property="messageLabel" destination="IEA-H5-762" id="nNe-Kb-Cpp"/>
+                <outlet property="retryButton" destination="wAl-KC-geW" id="epP-S7-rxV"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="268" height="220"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="generalError" translatesAutoresizingMaskIntoConstraints="NO" id="V03-NP-QVx">
+                    <rect key="frame" x="74" y="0.0" width="120" height="120"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="120" id="3TL-yk-VMu"/>
+                        <constraint firstAttribute="width" constant="120" id="tIy-wB-gq0"/>
+                    </constraints>
+                </imageView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Message" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IEA-H5-762">
+                    <rect key="frame" x="0.0" y="132" width="268" height="16.5"/>
+                    <fontDescription key="fontDescription" name="Helvetica-Bold" family="Helvetica" pointSize="14"/>
+                    <color key="textColor" red="0.6705882352941176" green="0.6705882352941176" blue="0.6705882352941176" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="xdF-Iu-Otf" userLabel="contentButton">
+                    <rect key="frame" x="114" y="160.5" width="40" height="40"/>
+                    <subviews>
+                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="retry" translatesAutoresizingMaskIntoConstraints="NO" id="Gq0-wT-lBm">
+                            <rect key="frame" x="10" y="10" width="20" height="20"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="20" id="LjY-Q9-XWM"/>
+                                <constraint firstAttribute="width" constant="20" id="hNs-q7-cF4"/>
+                            </constraints>
+                        </imageView>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wAl-KC-geW">
+                            <rect key="frame" x="0.0" y="0.0" width="40" height="40"/>
+                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <state key="normal">
+                                <color key="titleColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </state>
+                            <connections>
+                                <action selector="retryAction:" destination="-1" eventType="touchUpInside" id="ol9-HE-wIf"/>
+                            </connections>
+                        </button>
+                    </subviews>
+                    <color key="backgroundColor" name="YellowML"/>
+                    <constraints>
+                        <constraint firstItem="Gq0-wT-lBm" firstAttribute="centerY" secondItem="xdF-Iu-Otf" secondAttribute="centerY" id="2U5-Vu-VDH"/>
+                        <constraint firstAttribute="trailing" secondItem="wAl-KC-geW" secondAttribute="trailing" id="EOR-W3-QkD"/>
+                        <constraint firstAttribute="bottom" secondItem="wAl-KC-geW" secondAttribute="bottom" id="GgZ-d8-n8d"/>
+                        <constraint firstAttribute="height" constant="40" id="Js5-bc-0J5"/>
+                        <constraint firstItem="wAl-KC-geW" firstAttribute="top" secondItem="xdF-Iu-Otf" secondAttribute="top" id="PU8-iR-Nd8"/>
+                        <constraint firstAttribute="width" constant="40" id="Zra-Pg-p2P"/>
+                        <constraint firstItem="wAl-KC-geW" firstAttribute="leading" secondItem="xdF-Iu-Otf" secondAttribute="leading" id="b2J-aZ-q3n"/>
+                        <constraint firstItem="Gq0-wT-lBm" firstAttribute="centerX" secondItem="xdF-Iu-Otf" secondAttribute="centerX" id="vJO-8k-eeh"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstItem="IEA-H5-762" firstAttribute="top" secondItem="V03-NP-QVx" secondAttribute="bottom" constant="12" id="B5v-HM-fGA"/>
+                <constraint firstItem="V03-NP-QVx" firstAttribute="top" secondItem="vUN-kp-3ea" secondAttribute="top" id="LgN-Hn-W6T"/>
+                <constraint firstItem="xdF-Iu-Otf" firstAttribute="top" secondItem="IEA-H5-762" secondAttribute="bottom" constant="12" id="Xvy-5L-4cb"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="IEA-H5-762" secondAttribute="trailing" id="ci4-mx-PyP"/>
+                <constraint firstItem="IEA-H5-762" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" id="j0Y-2T-dY1"/>
+                <constraint firstItem="xdF-Iu-Otf" firstAttribute="centerX" secondItem="vUN-kp-3ea" secondAttribute="centerX" id="mGu-Y0-pKn"/>
+                <constraint firstItem="V03-NP-QVx" firstAttribute="centerX" secondItem="vUN-kp-3ea" secondAttribute="centerX" id="mvT-71-aem"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="140.625" y="114.08450704225352"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="generalError" width="120" height="120"/>
+        <image name="retry" width="40" height="40"/>
+        <namedColor name="YellowML">
+            <color red="0.96862745098039216" green="0.83921568627450982" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+    </resources>
+</document>
